@@ -1,0 +1,12 @@
+Begin 
+     for each character is postfix expression , do 
+     if operand is encountered, push it onto stack.
+   
+   else if operator is encountered, pop 2 elements 
+           A -> top element 
+           B -> Next to top element 
+ 
+          Result = <B> <operator> <A>
+         push result onto stack
+
+    return element of stack top end.

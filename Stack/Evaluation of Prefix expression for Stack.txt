@@ -1,0 +1,12 @@
+Scan prefix expression from (Right to left) for each character
+in prefix expression.
+
+Do:
+   if operand is there, push it onto stack 
+   else if operator is there, pop 2 elements 
+                OP1 = top element
+                OP2 = next to top element 
+                Result = <OP1> <operator> <OP2>
+        
+           Push result onto stack
+           return stack[Top]
